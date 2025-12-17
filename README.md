@@ -43,8 +43,8 @@ This project was developed to strengthen frontend web development skills and dem
 
 ## 📁 Folder Structure
 
+```
 Pet-Care-Website/
-
 │── index.html
 │── about.html
 │── services.html
@@ -58,7 +58,7 @@ Pet-Care-Website/
 
 ```
 
-```
+---
 
 ## ⚙️ How to Run the Project
 
@@ -102,5 +102,4 @@ Pet-Care-Website/
 
 ⭐ If you like this project, feel free to star the repository!
 
-```
 
