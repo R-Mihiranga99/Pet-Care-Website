@@ -44,6 +44,7 @@ This project was developed to strengthen frontend web development skills and dem
 ## 📁 Folder Structure
 
 Pet-Care-Website/
+
 │── index.html
 │── about.html
 │── services.html
@@ -54,9 +55,10 @@ Pet-Care-Website/
 │── images/
 │── screenshots/
 │── README.md
+
 ```
 
----
+```
 
 ## ⚙️ How to Run the Project
 
