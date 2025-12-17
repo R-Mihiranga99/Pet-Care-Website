@@ -17,9 +17,13 @@ CSS — Styling and layout design
 📌 Features
 
 ✔ Fully responsive layout
+
 ✔ Multiple informational pages
+
 ✔ Contact form layout
+
 ✔ Service and review sections
+
 ✔ Simple and clean design
 
 📁 Pages Included
