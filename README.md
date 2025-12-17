@@ -1,5 +1,4 @@
 
-```
 # 🐾 Pet Care Website
 
 A responsive and user-friendly pet care website built using **HTML** and **CSS**, designed to showcase pet care services with a clean and modern user interface.
@@ -44,7 +43,6 @@ This project was developed to strengthen frontend web development skills and dem
 
 ## 📁 Folder Structure
 
-```text
 Pet-Care-Website/
 │── index.html
 │── about.html
