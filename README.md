@@ -1,93 +1,122 @@
 
-# 🐾 Pet Care Website
+# 🎬 FilmoraX Movie Website
 
-A responsive and user-friendly pet care website built using **HTML** and **CSS**, designed to showcase pet care services with a clean and modern user interface.
+A full-stack movie web application built with **React**, **Node.js (Express)**, **PostgreSQL (Neon)**, and the **TMDB API** to display dynamic movie data.
 
 ---
 
 ## 🚀 Project Overview
 
-The **Pet Care Website** is a multi-page static web application created to provide information about pet care services such as grooming, veterinary support, and customer reviews. The website focuses on simple navigation, responsive design, and an engaging layout suitable for a small business or portfolio project.
-
-This project was developed to strengthen frontend web development skills and demonstrate clean UI design using core web technologies.
+**FilmoraX Movie Website** is an interactive movie browsing app that fetches data using the **TMDB API** and displays movie posters, ratings, and detailed information. The frontend is built with **React**, providing a fast and responsive user experience. The backend is developed with **Express** and **PostgreSQL (Neon)** to handle API requests and data logic. This project demonstrates full-stack development, RESTful API integration, and asynchronous data fetching.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
-* **HTML5** – Website structure and content
-* **CSS3** – Styling, layout, and responsiveness
+* **React** – Frontend UI
+* **Node.js & Express** – Backend services
+* **PostgreSQL (Neon)** – Database
+* **TMDB API** – Movie data source
+* **JavaScript (ES6+)**
+* **HTML5 & CSS3**
 
 ---
 
 ## ✨ Features
 
-* ✅ Fully responsive design
-* ✅ Clean and modern user interface
-* ✅ Multi-page navigation
-* ✅ Services and reviews sections
-* ✅ Contact page layout
-* ✅ Beginner-friendly and easy to extend
-
----
-
-## 📄 Pages Included
-
-* `index.html` – Home page
-* `about.html` – About us page
-* `services.html` – Pet care services
-* `reviews.html` – Customer reviews
-* `contact.html` – Contact information
+* 🎥 Browse and search popular movies
+* 📊 View detailed movie information
+* 🚀 Fast, responsive UI with React components
+* 📡 Backend integration with TMDB API
+* 💾 Database support with PostgreSQL (Neon)
+* 🧠 Modular and scalable code structure
 
 ---
 
 ## 📁 Folder Structure
 
-```
-Pet-Care-Website/
-│── index.html
-│── about.html
-│── services.html
-│── reviews.html
-│── contact.html
-│── css/
-│   └── style.css
-│── images/
-│── screenshots/
-│── README.md
-
+```text
+FilmoraX_Movie_Website/
+├── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── db/
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.jsx
+├── package.json
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## ⚙️ How to Run the Project
+## ⚙️ Getting Started (Development Setup)
 
-1. Clone the repository:
+1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/R-Mihiranga99/Pet-Care-Website.git
+   git clone https://github.com/R-Mihiranga99/FilmoraX_Movie_Website.git
    ```
-2. Open the project folder.
-3. Double-click `index.html` or open it using any modern web browser.
+
+2. **Backend setup**
+
+   ```bash
+   cd backend
+   npm install
+   ```
+
+3. **Frontend setup**
+
+   ```bash
+   cd frontend
+   npm install
+   ```
+
+4. **Environment variables**
+   Create a `.env` file and add:
+
+   ```env
+   TMDB_API_KEY=your_tmdb_api_key
+   DATABASE_URL=your_postgresql_connection
+   ```
+
+5. **Start the backend**
+
+   ```bash
+   npm start
+   ```
+
+6. **Start the frontend**
+
+   ```bash
+   npm run dev
+   ```
+
+7. Open the app in the browser (default typically `localhost:3000` or `localhost:5173`)
 
 ---
 
 ## 📌 What I Learned
 
-* Structuring multi-page websites using HTML
-* Creating responsive layouts with CSS
-* Improving UI/UX design skills
-* Writing clean and readable frontend code
-* Organizing files for better project structure
+* Integrating a third-party API (TMDB) in a full-stack app
+* Building reusable React components
+* Backend routing and API design with Express
+* Using PostgreSQL (Neon) with Node.js
+* Implementing asynchronous data fetching (frontend & backend)
 
 ---
 
 ## 🌱 Future Improvements
 
-* Add JavaScript for interactivity
-* Implement an online appointment booking feature
-* Integrate backend support
-* Improve accessibility and animations
+* Add user authentication (login/signup)
+* Create watchlists and user favorites
+* Add pagination and filters
+* Deploy full app (frontend & backend) with CI/CD
 
 ---
 
@@ -96,10 +125,10 @@ Pet-Care-Website/
 **Ravindu Mihiranga**
 
 * GitHub: [https://github.com/R-Mihiranga99](https://github.com/R-Mihiranga99)
-* LinkedIn: *(Add your LinkedIn profile link here)*
+* LinkedIn: *(add your LinkedIn profile)*
 
 ---
 
-⭐ If you like this project, feel free to star the repository!
+⭐ If you find this project interesting, feel free to **⭐ star this repo**!
 
-
+```
