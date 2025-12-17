@@ -1,4 +1,4 @@
-                      🐾 Pet Care Website
+🐾 Pet Care Website
 
 A responsive and user-friendly pet care web application built using HTML and CSS.
 
